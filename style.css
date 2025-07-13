@@ -1,0 +1,598 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+   
+    font-size: 18px;
+}
+
+.bi .bi-geo-alt{
+font-size: 4px;
+}
+.btn{
+    background-color: white;
+    border: 2px solid blue;
+    text-align: center;
+    font-size: 14px;
+    
+    font-weight: 700;
+    
+    line-height: 46px;
+    padding: 0 27px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.btn-hover:hover {
+    background-color: solid blue;
+    color: white;
+    
+  }
+
+  .navbar-color{
+    background-color: #000f32;
+  }
+
+  .button-color:hover,
+.button-color:focus {
+  background-color: #1a1a2e; /* Replace with your navbar background color */
+  color: #ffffff; /* Adjust text color for contrast */
+  border-color: #1a1a2e; 
+     /* Optional: match border */}
+     body{
+        body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+        }
+     }
+
+     .top-left {
+        width: 600px;
+  position: absolute;
+  top: 300px;
+  left: 60px;}
+  .text-blue{
+    color:darkblue
+  }
+
+
+  .carousel-indicators.vertical-indicators {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 2;
+  margin: 0;
+}
+
+.carousel-indicators.vertical-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #002855;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators.vertical-indicators .active {
+  background-color: #002855;
+}
+.carousel-indicators.vertical-indicators button:hover {
+  background-color: #002855;
+  opacity: 1;
+}
+
+.parallax-section {
+    background-image: url(https://html.creativegigstf.com/charles/images/home/2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* optional, prevents overflow issues */
+}
+
+.parallax-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* overlay effect */
+    z-index: 1;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    line-height: 52px;
+    color: #fff;
+    padding: 0 100px;
+    font-weight: 900;
+    z-index: 2; /* ensures it's above the overlay */
+}
+
+.parallaxheading {
+    font-size: 38px;
+    line-height: 52px;
+    text-transform: inherit;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+.button-edit{
+    background-color: #001a57;
+    border: 2px solid #001a57;
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 5px;
+    
+
+}
+.button-edit:hover {
+    background-color: #000f32;
+    color: #fff;
+    border-color: #000f32;
+}
+.containertimer {
+    padding: 85px 0;
+    background-image: url(https://html.creativegigstf.com/charles/images/home/pattern.png);
+    width: 100%;
+    height: auto;
+}
+
+#container1 {
+    background-color: #f8faff;
+}
+
+.numbers {
+    font-size: 40px;
+    font-weight: 400;
+    color: #001a57;
+}
+
+.timerheading {
+    color: #001a57;
+}
+
+.nhead {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #555555;
+    font-size: 17px;
+}
+
+.timersubheading {
+    font-size: 42px;
+    font-weight: 700;
+    padding: 12px 0 35px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #232323;
+}
+
+
+.box1 {
+  width: 200px;
+  padding: 20px;
+  border: 10px solid black;
+  box-sizing: content-box; /* default */
+}
+.box2 {
+  width: 200px;
+  padding: 20px;
+  border: 10px solid black;
+  box-sizing: border-box;
+}
+.parent1{
+   min-height: 80vh;
+  background: #063c60;      /* fallback bg color */
+  background-image: url('https://html.creativegigstf.com/charles/images/home/slide-3.jpg?1751901830281');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #002855;
+}
+.parent2{
+   min-height: 80vh;
+  background: #063c60;      /* fallback bg color */
+  background-image: url('https://html.creativegigstf.com/charles/images/home/slide-1.jpg?1751996322833');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #002855;
+}
+.parent3{
+   min-height: 80vh;
+  background: #063c60;      /* fallback bg color */
+  background-image: url('https://html.creativegigstf.com/charles/images/home/slide-2.jpg?1751996324080');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #002855;
+}
+.textarea{
+    padding: 5px;
+}
+
+
+ .testimonial-item {
+        background-color: #fff;
+        border-radius: 10px;
+
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+        padding: 40px 65px 35px 65px;
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .testimonial-quote {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #555;
+        font-family: source sans pro;
+        
+        margin: 0;
+        padding: 0;
+      }
+      #parallax2icon{
+        position: absolute;
+
+      }
+
+      .testimonial-author {
+        padding: 25px 0px 0px 0px;
+        color: #111;
+      }
+
+      .testimonial-role {
+        font-size: 16px;
+        color: #777;
+      }
+
+      .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
+        background: #ccc;
+        display: block;
+        border-radius: 50%;
+        margin: 5px 3px;
+      }
+
+      .owl-dots .owl-dot.active span {
+        background: #001648;
+      }
+      .carousalconatiner2 {
+        max-width: 629px;
+        margin: 0 auto;
+      }
+      .parallax-section2 {
+        background-image: url(https://html.creativegigstf.com/charles/images/home/9.jpg);
+        height: 77vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        overflow: hidden; /* optional, prevents overflow issues */
+      }
+      .parallax-content::before {
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+      .parallax-content2 {
+        position: absolute;
+        top: 46%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+
+        z-index: 2; /* ensures it's above the overlay */
+      }
+
+
+
+
+
+.buttonh{
+    
+    margin: 5px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    color: #001a57;
+    border-radius: 5px;
+    padding: 0 35px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
+
+}
+.buttonh:hover{
+    background: #001a57;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+.header-button {
+    display: inline-block;
+    padding: 0 30px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #001a57;
+    border-radius: 5px;
+    border: 2px solid #001a57;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.header-button:hover {
+    background-color: #001a57;
+    color: #ffffff;
+    border-color: #001a57;
+}
+
+.footer{
+    background-color: #001138;
+    color: grey;
+
+}
+
+.main23{
+    width: 100vw;
+    height: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+    flex-wrap: wrap;
+     padding: 0px;
+    margin: auto;
+}
+
+.con1{
+    background-color: #fafafa;
+   padding-top: 10px;
+    width: 25%;
+     padding-top: 3%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.con2{
+    background-color:#f6f6f6;
+    width: 25%;
+    padding-top: 3%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      cursor: pointer;
+       flex-wrap: wrap;
+
+}.con3{
+    background-color: #efefef;
+    width: 25%;
+    padding-top: 3%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      cursor: pointer;
+       flex-wrap: wrap;
+}.con4{
+    background-color: #e9e9e9;
+    width: 25%;
+    padding-top: 3%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      cursor: pointer;
+       flex-wrap: wrap;
+}
+.cont-hover{
+    border-bottom: 2px solid white;
+}
+.cont-hover:hover{
+    box-sizing: content-box;
+    border-bottom: 4px solid  #001a57;
+   
+}
+#h4heading{
+    font-size: 26px;
+    color:#001a57;
+    margin-top: 15px;
+}
+#para{
+
+    padding: 0px 16% 60px 16%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #555555;
+    font-size: 20px
+}
+/* Tablet: 2 items per row */
+@media (max-width: 991.98px) {
+  .con1, .con2, .con3, .con4 {
+    flex: 1 1 48%; /* Two items per row with spacing */
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile: 1 item per row */
+@media (max-width: 767.98px) {
+  .con1, .con2, .con3, .con4 {
+    flex: 1 1 100%; /* Full width */
+    margin-bottom: 20px;
+  }
+}
+
+.footer-background{
+    background-color: #001138;
+}
+#copyright{
+    margin-right: auto;
+    color: #9ca6bf;
+    font-size: 17px;
+}
+#ulfooter{
+    display: inline-block;
+    color:#9ca6bf;
+   
+   
+}
+#ullia{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    color: #9ca6bf;
+    padding-left: 10px;
+     list-style: none;
+     text-decoration: none;
+    
+}
+
+#footerborder{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#abouttext{
+    font-size: 18px;
+    margin-bottom: 25px;
+    color:white;
+}
+#Aboutparagraph{
+    font-size: 17px;
+    color: #9ca6bf;
+}
+.top{
+    background-color: #001648;
+    padding: 80px 0px 75px 0px;
+}
+.h2heading{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 750;
+}
+#aboutul{
+    border-top: 1px solid #dcdcdc;
+    padding-top: 23px;
+    margin-top: 33px;
+}
+.libr{
+    border-right: 2px solid #dcdcdc;
+}
+@media (max-width:991px){
+.aboutcompanyimage{
+    display: none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .parallax-content #parallexheading {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+ @media (max-width: 991px) {
+        .column2 {
+          display: none;
+        
+        }
+        
+      }
+      .navtextcolor{
+        color:#8f97ab;
+      }
+      .navtextcolor:hover{
+        color:white;
+      }
+      .iconborder{
+        padding: 22px;
+        border-left: 1px solid  #0d2356;
+        border-right: 1px solid  #0d2356 ;
+    
+
+      }
+.icon-group a {
+        color: #ccd1dd;
+        padding: 0 8px;
+        font-size: 19px;
+      }
+
+      .icon-group a:hover {
+        color: #ffffff;
+      }
+
+      
+
+      @media (max-width: 991px) {
+        .icon-group {
+          margin-top: 10px;
+          justify-content: center;
+        }
+    }
+      .header-button {
+        display: inline-block;
+        padding: 0 30px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #ffffff;
+        color: #001a57;
+        border-radius: 5px;
+        border: 2px solid #001a57;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+      }
+
+      .header-button:hover {
+        background-color: #001a57;
+        color: #ffffff;
+        border-color: #001a57;
+      }
+      #aboutouterbox{
+        margin: 120px 0 120px 0;
+      }
+      #aboutimg{
+        padding: 0 30px 0 75px;
+      }
