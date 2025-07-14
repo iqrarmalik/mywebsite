@@ -1024,6 +1024,35 @@
       </div>
     </div>
     <script src="../javascript/javascript.js"></script>
+      <section class="feed-section" id="feed">
+    <div class="feed-header">
+        <h3>Your Instagram Feed</h3>
+        <div class="feed-controls">
+            <button class="control-btn" onclick="refreshFeed()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="23 4 23 10 17 10"></polyline>
+                    <polyline points="1 20 1 14 7 14"></polyline>
+                    <path d="m3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                </svg>
+                Refresh
+            </button>
+            <select class="layout-select" onchange="changeLayout(this.value)">
+                <option value="grid">Grid Layout</option>
+                <option value="list">List Layout</option>
+                <option value="masonry">Masonry Layout</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="feed-grid" id="feedGrid">
+        <!-- Posts will be inserted here -->
+    </div>
+
+    <div class="load-more">
+        <button class="load-more-btn" onclick="loadMorePosts()">Load More Posts</button>
+    </div>
+</section>
+
     
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
